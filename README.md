@@ -1,7 +1,7 @@
 <h1>FENERBAHTCHÊ</h1>
 <br>
 <br>
-<h2>ESSE É O MEU PROJETO DO MEU TIME DE FUTSAL FENERBAHTCHÊ</h2>
+<h2>ESSE É O MEU PROJETO DO TIME DE FUTSAL FENERBAHTCHÊ</h2>
 <br>
 <br>
 <h3>Tecnologias Utilizadas:</h3>
