@@ -4,18 +4,15 @@
 <h2>ESSE É O MEU PROJETO DO TIME DE FUTSAL FENERBAHTCHÊ</h2>
 <br>
 <br>
-<h4> Site institucional do time de futebol de várzea Fenerbahtche, criado com HTML, CSS e JavaScript.
+<h4> 
+Projeto criado para representar o time de futebol Fenerbahtche, fundado em 2023 por um grupo de amigos da escola, no qual sou um dos fundadores.
 
-Descrição completa (README sugerido):
-Projeto criado para representar o time de futebol de várzea Fenerbahtche, fundado em 2023 por um grupo de amigos da escola, no qual sou um dos fundadores.
-O site apresenta:
-
-Jogadores e comissão técnica
-
-Camisa oficial da torcida
-
-Patrocinadores do time
-
+  <ul> 
+    <li>O site apresenta</li>
+    <li>Jogadores e comissão técnica</li>
+    <li>Camisa oficial da torcida</li>
+    <li>Patrocinadores do time</li>
+  </ul>
 Projeto autoral com foco em organização de conteúdo, identidade visual e estruturação de página estática. </h4> 
 <br>
 <br>
