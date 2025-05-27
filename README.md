@@ -7,14 +7,14 @@
 <h4> 
 Projeto criado para representar o time de futebol Fenerbahtche, fundado em 2023 por um grupo de amigos da escola, no qual sou um dos fundadores.
 
+O site apresenta:
   <ul> 
-    <li>O site apresenta</li>
     <li>Jogadores e comissão técnica</li>
     <li>Camisa oficial da torcida</li>
     <li>Patrocinadores do time</li>
   </ul>
-Projeto autoral com foco em organização de conteúdo, identidade visual e estruturação de página estática. </h4> 
 <br>
+Projeto autoral com foco em organização de conteúdo, identidade visual e estruturação de página estática. </h4> 
 <br>
 <h3>Tecnologias Utilizadas:</h3>
 <ul>
