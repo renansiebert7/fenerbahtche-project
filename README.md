@@ -24,7 +24,8 @@ Projeto autoral com foco em organização de conteúdo, identidade visual e estr
 </ul>
 <br>
 <br>
-<a href=https://renansiebert7.github.io/fenerbahtche-project/></a> 
+Acesse o Projeto Aqui:
+https://renansiebert7.github.io/fenerbahtche-project/
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/renansiebert7/fenerbahtche-project/refs/heads/master/assets/FENERBAHTCH%C3%8A.png">
