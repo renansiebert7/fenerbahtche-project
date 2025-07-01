@@ -23,7 +23,9 @@
     color: rgb(238, 255, 0);
     gap: 50px;
     margin: auto;
+    width: 68%;
 }
+
 .div-texto h1 {
     color: white;
 }
@@ -42,8 +44,9 @@
     justify-content: center;
     align-items: center;
     margin: 30px;
-    color: rgb(255, 0, 0);
-    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    margin-bottom: 30px;
 }
 
 .mascara {
