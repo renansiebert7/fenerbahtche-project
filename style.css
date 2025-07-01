@@ -227,6 +227,10 @@ header h3 {
         /* Centraliza a terceira imagem */
     }
 
+    .div-texto {
+    width: 100%;
+}
+
     .caixa,
     .caixa2,
     .caixa3,
