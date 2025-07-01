@@ -14,7 +14,7 @@
     z-index: -1;
 }
 
-.div-texto{
+.div-texto {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -227,10 +227,6 @@ header h3 {
         /* Centraliza a terceira imagem */
     }
 
-    .div-texto {
-        width: 100%;
-    }
-
     .caixa,
     .caixa2,
     .caixa3,
@@ -290,6 +286,10 @@ header h3 {
 @media (max-width: 800px) {
     .imagem-container {
         flex: 0 0 100%;
+    }
+
+    .div-texto {
+        width: 100%;
     }
 
     .escudo-fenerbas,
