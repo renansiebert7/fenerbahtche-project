@@ -14,36 +14,15 @@
     z-index: -1;
 }
 
-.div-texto{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 70px;
-    color: rgb(238, 255, 0);
-    gap: 50px;
-    margin: auto;
-}
-.div-texto h1 {
-    color: white;
-}
-
-.div-texto .ul {
-    color: red;
-}
-
-.div-texto .final {
-    color: green;
-}
-
-.link-camisas {
+.link1 {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
+    padding-bottom: 50px;
     color: rgb(255, 0, 0);
-    margin-top: 100px;
+    font-size: 2.2em;
 }
 
 .mascara {
@@ -53,8 +32,16 @@
     position: fixed;
     top: 0;
     z-index: -1;
+    opacity: 0.7;
 }
 
+.imagem1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 700px;
+}
 
 .escudo-fenerbas,
 .escudo-fenerbas2 {
@@ -73,31 +60,6 @@
     right: 60px;
 }
 
-header {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    color: white;
-    margin-top: 30px;
-}
-
-header h1 {
-    margin-top: 30px;
-    font-weight: bold;
-}
-
-header h2 {
-    margin-top: 15px;
-    font-weight: normal;
-    font-size: 20px;
-}
-
-header h3 {
-    margin-top: 10px;
-    font-weight: normal;
-    font-size: 15px;
-}
-
 .caixa,
 .caixa2,
 .caixa3,
@@ -108,44 +70,6 @@ header h3 {
     gap: 20px;
     margin-top: 20px;
     padding: 40px;
-}
-
-.jogadoresh2 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    color: red;
-    text-align: center;
-    height: 20px;
-}
-
-.comissaoh2 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    color: yellow;
-    text-align: center;
-    height: 20px;
-}
-
-.patrocinioh2 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    color: green;
-    text-align: center;
-    height: 20px;
-}
-
-.imagem1,
-.imagem2,
-.imagem3 {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    width: 360px;
-}
-
-.imagem1:hover,
-.imagem2:hover,
-.imagem3:hover {
-    transform: scale(1.1);
 }
 
 .camisash2 {
@@ -180,6 +104,7 @@ header h3 {
     padding: 20px;
     border-radius: 5px;
     transition: left 1s ease-in-out;
+    z-index: 1;
 }
 
 .mascara-formulario {
@@ -192,25 +117,9 @@ header h3 {
     transition: visibility 1s ease-in-out;
 }
 
-.link-whats img {
-    height: 60px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
-
-.caixa3 {
-    display: flex;
-    justify-content: center;
-}
-
-.caixa4 {
-    display: flex;
-    justify-content: center;
-}
 
 /* Media Queries */
-@media (min-width: 1700px) {
+@media (max-width: 904px) {
     .imagem-container {
         flex: 0 0 calc(50% - 20px);
         /* 2 imagens lado a lado */
@@ -223,6 +132,11 @@ header h3 {
         justify-content: center;
         /* Centraliza a terceira imagem */
     }
+
+    .escudo-fenerbas,
+    .escudo-fenerbas2 {
+    display: none;
+}
 
     .caixa,
     .caixa2,
@@ -285,11 +199,6 @@ header h3 {
         flex: 0 0 100%;
     }
 
-    .escudo-fenerbas,
-    .escudo-fenerbas2 {
-        display: none;
-    }
-
     .caixa,
     .caixa2,
     .caixa3,
@@ -322,11 +231,5 @@ header h3 {
         margin-top: 10px;
         font-weight: normal;
         font-size: 10px;
-    }
-
-    .imagem1,
-    .imagem2,
-    .imagem3 {
-        width: 300px;
     }
 }
