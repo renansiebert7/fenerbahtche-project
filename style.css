@@ -336,4 +336,12 @@ header h3 {
     .imagem3 {
         width: 300px;
     }
+
+    .div-texto h1 {
+    color: white;
+    white-space: nowrap; /* Adiciona esta linha */
+    overflow: hidden;    /* Opcional: oculta o texto que ultrapassar o contêiner */
+    text-overflow: ellipsis; /* Opcional: adiciona "..." ao final do texto se ele for cortado */
+    }
+
 }
